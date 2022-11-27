@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(57, 169, 219);
+    margin: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: azure;
+    margin: 20px 0px;
+    border: 0
+}
+
+.center {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    color: aliceblue;
+    margin: 0 30%;
+    padding: 10px;
+    border: 1 solid white;
+    background-color: black;
+}
+
+input[type*="submit"] {
+    font-weight: bold;
+    font-size: 30px;
+    padding: auto, auto, 60px;
+}
+
+input[type*="submit"]:hover {
+    background-color: rgb(57, 169, 219);
+} 
+input:

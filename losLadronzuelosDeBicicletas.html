@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <h1 class="center">¿TE HAN ROBADO LA BICI?</h1>
+    <form action="#">
+        <section>
+            <label for="date">¿En qué día desapareció?</label><br><br>
+            <input type="date" id="date" name="date"><br>
+        </section>
+        <section>
+            <label for="time">¿Recuerdas la hora exacta?</label><br><br>
+            <input type="time" id="time" name="time"><br>
+        </section>
+        <section>
+            <label for="color">¿Cuál es el color de tu bici?</label><br>
+            <input type="color" id="color" name="color"><br>
+        </section>
+        <section>
+            <label for="price">¿Su precio?</label><br><br>
+
+            <span>20 €</span><input type="range" id="price" name="price" min="20" max="3000"><span>3.000€</span><br>
+
+        </section>
+        <section>
+            <label for="bikes">Tipo de bicicleta:</label><br>
+            <span>Paseo:</span>
+            <select name="paseo" id="paseo" paseo="3">
+                <option value="Señorial">Señorial</option>
+                <option value="Anti-plebeyos">Anti-plebeyos</option>
+                <option value="PorEncimaDelHombro">PorEncimaDelHombro</option>
+            </select><br>
+            <span>Montaña</span>
+            <select name="mountain" id="">
+                <option value="Gamusinos">Gamusinos</option>
+                <option value="Hueleflores premium">Hueleflores premium</option>
+                <option value="Fango lover">Fango lover</option>
+            </select><br>
+            <span>Carreras</span>
+            <select name="carreras" id="carreras">
+
+                <option value="metroymedio">Metroymedio</option>
+                <option value="3 de la tarde. Fluorescente edition">3 de la tarde. Fluorescente edition</option>
+                <option value="Grupitors">Grupitors</option>
+            </select><br>
+        </section>
+        <section>
+            <label for="accesories">¿Llevaba algún accesorio?:</label><br><br>
+            <select name="accesories" id="accesories" size="3" multiple>
+                <option value="Ruedines">Ruedines</option>
+                <option value="Pegatinas">Pegatinas</option>
+                <option value="Cesta">Cestita</option>
+                <option value="Bombaa">Bomba de aire</option>
+                <option value="Timbre">Timbre</option>
+                <option value="Foco">Foco</option>
+            </select><br>
+        </section>
+        <section>
+            <label for="marca">¿De qué marca era?</label><br><br>
+            <input list="marca" name="marca">
+            <datalist id="marca" action="#">
+                <option value="specialized">specialized</option>
+                <option value="trek">trek</option>
+                <option value="merida">merida</option>
+                <option value="scott">scott</option>
+                <option value="giant">giant</option>
+                <option value="cube">cube</option>
+                <option value="lapierre">lapierre</option>
+                <option value="orbea">orbea</option>
+                <option value="cannondale">cannondale</option>
+                <option value="bmc">bmc</option>
+                <option value="canyon">canyon</option>
+                <option value="look">look</option>
+                <option value="protek">protek</option>
+                <option value="megamo">megamo</option>
+                <option value="pinarello">pinarello</option>
+                <option value="bianchi">bianchi</option>
+                <option value="bh">bh</option>
+                <option value="factor">factor</option>
+                <option value="ghost">ghost</option>
+                <option value="cervélo">cervélo</option>
+                <option value="argon">argon</option>
+            </datalist><br><br>
+        </section>
+        <section>
+            <input type="submit" value="Enviar">
+        </section>
+
+
+    </form>
+</body>
+
+</html>
